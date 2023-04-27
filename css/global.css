@@ -29,8 +29,9 @@ header {
 .main-header ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     gap: 20px;
+    padding-right: 40px;
 }
 
 .main-header li {
