@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="css/global.css">
     <title>Landing html e css</title>
 </head>
+
 <body>
     <main>
         <!-- header -->
@@ -43,7 +45,7 @@
                 </div>
 
                 <div class="hero__image">
-                    <img src="assets/images/Creative-designer.png" alt="hero image">
+                    <img src="assets/images/Creative-designer.png" class="animationUpDown" alt="hero image">
                 </div>
 
             </div>
@@ -58,6 +60,9 @@
             <div class="services__item">
                 <div class="container">
                     <div class="service__item__wrapper">
+                        <div class="geometric-element animationLeftRight">
+                            <img src="./assets/images/circle-dot.png" alt="" width="200" height="200">
+                        </div>
                         <div class="services__image">
                             <img src="assets/images/ragazza-bruna.jpg" alt="service 1" width="460" height="440">
                         </div>
@@ -69,7 +74,7 @@
                                 pariatur
                                 ab ipsam sunt modi, temporibus tempora neque quos odit.
                             </p>
-                            <a href="#" title="hero cta" class="button"><span>Sono una cta</span></a>
+                            <a class="button" title="go to service 1"><span>Go</span></a>
                         </div>
                     </div>
                 </div>
@@ -81,7 +86,7 @@
                 <div class="container">
                     <div class="service__item__wrapper">
                         <div class="services__image">
-                            <img src="assets/images/service2.jpeg" alt="service 1" width="637" height="437">
+                            <img src="assets/images/service2.jpeg" alt="service 1" width="900" height="617">
                         </div>
                         <div class="services__text">
                             <h2 class="services__title">Lorem ipsum dolor sit amet consectetur.</h2>
@@ -91,7 +96,7 @@
                                 pariatur
                                 ab ipsam sunt modi, temporibus tempora neque quos odit.
                             </p>
-                            <a href="#" title="hero cta" class="button"><span>Sono una cta</span></a>
+                            <a class="button" title="go to service 1"><span>Go</span></a>
                         </div>
                     </div>
                 </div>
@@ -113,32 +118,206 @@
                                 pariatur
                                 ab ipsam sunt modi, temporibus tempora neque quos odit.
                             </p>
-                            <a href="#" title="hero cta" class="button"><span>Sono una cta</span></a>
+                            <a class="button" title="go to service 1"><span>Go</span></a>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- end terzo item di service -->
 
-
-
-
         </section>
+
+        
         <!-- end services -->
 
-        <!-- New section List-->
-
-        <div>
-            <h1>Lorem ipsum dolor sit amet.</h1>
+        <!-- Infographic -->
+        <section class="infographic">
+            <h1 class="title__infographic"> Lorem ipsum dolor sit amet.</h1>
             <ul>
-                <li><a href="#" title="home">Home</a></li>
-                <li><a href="#" title="Happy clients">Happy clients</a></li>
-                <li><a href="#" title="Awards Winning">Awards Winning</a></li>
-                <li><a href="#" title="Our Projects">Our Projects</a></li>
-                <li><a href="#" title="Working Hours">Working Hours</a></li>
+        
+                <li><value> <h1>92</h1> </value>
+                    <h5 title="Happy clients">Happy clients</h5></li>
+                <li><value> <h1>33</h1> </value>
+                    <h5 title="Awards Winning">Awards Winning</h5></li>
+                <li><value> <h1>12</h1> </value>
+                    <h5 title="Our Projects">Our Projects</h5></li>
+                <li><value> <h1>492</h1> </value>
+                    <h5 title="Working Hours">Working Hours</h5></li>
             </ul>
+        </section>
+        <!-- end Infographic -->
+
+        <!-- slide -->
+        <section class="slide__wapper">
+            <div class="slide__image">
+                <img src="assets/images/about-background.jpeg" >
+            </div>
+            <div class="slide__title">
+                <h1> Lorem ipsum dolor sit.</h1>
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Laudantium, eligendi! Necessitatibus, sequi?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eligendi nihil dignissimos tempore porro! Cumque, suscipit?
+                    Quaerat quae adipisci vel enim eos dolor quis eaque molestias
+                    laudantium architecto illum, sapiente incidunt?</p>
+                <a href="#" title="hero cta" class="button"><span>Sono una cta</span></a>
+            </div>
+        
+        </section>
+        <!--end slide -->
+
+        <!-- blog -->
+        <div class="blog">
+            <div class="blog__title"> 
+                <h1>Lorem ipsum dolor sit.</h1>
+            </div>
+            <div class="blog__wrapper">
+                <div class="card">
+                    <div class="card__header">
+                        <!-- image -->
+                        <img src="./assets/images/blog/1.jpg" alt="blog 1">
+                        <!-- date author -->
+                        <div class="card__info">
+                            <p>28/04/2023 - Name Surname</p>
+                        </div>
+                        
+                    </div>
+                    <div class="card__content">
+                        <!--  title -->
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, et!</p>
+                        <a href="" title="" class="button"><span>Read more</span></a>
+                        <!--  summary -->
+                        <!--  cta -->
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__header">
+                        <!-- image -->
+                        <img src="./assets/images/blog/2.jpg" alt="blog 1">
+                        <!-- date author -->
+                        <div class="card__info">
+                            <p>28/04/2023 - Name Surname</p>
+                        </div>
+                        
+                    </div>
+                    <div class="card__content">
+                        <!--  title -->
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, et!</p>
+                        <a href="" title="" class="button"><span>Read more</span></a>
+                        <!--  summary -->
+                        <!--  cta -->
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__header">
+                        <!-- image -->
+                        <img src="./assets/images/blog/3.jpg" alt="blog 1">
+                        <!-- date author -->
+                        <div class="card__info">
+                            <p>28/04/2023 - Name Surname</p>
+                        </div>
+                        
+                    </div>
+                    <div class="card__content">
+                        <!--  title -->
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, et!</p>
+                        <a href="" title="" class="button"><span>Read more</span></a>
+                        <!--  summary -->
+                        <!--  cta -->
+                    </div>
+                </div> <div class="card">
+                    <div class="card__header">
+                        <!-- image -->
+                        <img src="./assets/images/blog/4.jpg" alt="blog 1">
+                        <!-- date author -->
+                        <div class="card__info">
+                            <p>28/04/2023 - Name Surname</p>
+                        </div>
+                        
+                    </div>
+                    <div class="card__content">
+                        <!--  title -->
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, et!</p>
+                        <a href="" title="" class="button"><span>Read more</span></a>
+                        <!--  summary -->
+                        <!--  cta -->
+                    </div>
+                </div>
+
+
+            </div>
         </div>
+        <!-- end blog -->
+
+        <!-- mosaico composition-->
+
+        <div class="mosaico__item">
+            <div class="container">
+                <div class="mosaico__item__wrapper">
+                    <div class="mosaico__text">
+                        <h2 class="mosaico__title">Lorem ipsum dolor sit amet consectetur.</h2>
+                        <p class="mosaico__description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Sint est error iure doloribus harum aperiam officiis fugit eum consequuntur, voluptatem
+                            pariatur
+                            ab ipsam sunt modi, temporibus tempora neque quos odit.
+                        </p>
+                        <a class="button" title="go to service 1"><span>Go</span></a>
+                    </div>
+                    <div class="mosaico__image">
+                        <img src="assets/images/project1.jpeg" alt="project 1" width="860" height="650">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mosaico__item">
+            <div class="container">
+                <div class="mosaico__item__wrapper">
+                    <div class="mosaico__text">
+                        <h2 class="mosaico__title">Lorem ipsum dolor sit amet consectetur.</h2>
+                        <p class="mosaico__description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Sint est error iure doloribus harum aperiam officiis fugit eum consequuntur, voluptatem
+                            pariatur
+                            ab ipsam sunt modi, temporibus tempora neque quos odit.
+                        </p>
+                        <a class="button" title="go to service 1"><span>Go</span></a>
+                    </div>
+                    <div class="mosaico__image">
+                        <img src="assets/images/project2.jpeg" alt="project 2" width="860" height="650">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mosaico__item">
+            <div class="container">
+                <div class="mosaico__item__wrapper">
+                    <div class="mosaico__text">
+                        <h2 class="mosaico__title">Lorem ipsum dolor sit amet consectetur.</h2>
+                        <p class="mosaico__description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Sint est error iure doloribus harum aperiam officiis fugit eum consequuntur, voluptatem
+                            pariatur
+                            ab ipsam sunt modi, temporibus tempora neque quos odit.
+                        </p>
+                        <a class="button" title="go to service 1"><span>Go</span></a>
+                    </div>
+                    <div class="mosaico__image">
+                        <img src="assets/images/project3.jpeg" alt="project 3" width="860" height="650">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end mosaico composition-->
 
     </main>
 </body>
+
 </html>
